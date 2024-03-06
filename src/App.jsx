@@ -71,7 +71,7 @@ function App() {
               id="range"
               onChange={(e) => { setLen(e.target.value) }} />
             <label
-              className=" " htmlFor="range">Lenght : {len}</label>
+              className=" " htmlFor="range">Length : {len}</label>
           </div>
           <div className="flex items-center gap-x-1">
             <input type="checkbox"
